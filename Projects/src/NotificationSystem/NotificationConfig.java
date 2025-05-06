@@ -5,6 +5,7 @@ package NotificationSystem;
  * @ since 07-05-2025 01:12 am
  */
 public class NotificationConfig {
+    private String sender = "System";
     private static NotificationConfig config;
     private NotificationConfig(){
 
@@ -18,5 +19,8 @@ public class NotificationConfig {
             }
         }
         return config;
+    }
+    public String getSender(){
+        return this.sender;
     }
 }

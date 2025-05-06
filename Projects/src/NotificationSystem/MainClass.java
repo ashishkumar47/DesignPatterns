@@ -7,7 +7,8 @@ package NotificationSystem;
 public class MainClass {
     public static void main(String[] args) {
         NotificationConfig config = NotificationConfig.getInstance();
-        Notification notification = NotificationFactory.getNotification("sms");
+        System.out.println(config.getSender());
+        Notification notification = NotificationFactory.getNotification("email");
         String message = MessageBuilder.getBuilder().setBody("hello world").setTitle("new message").setPriority(1).build();
         notification.send(message);
     }
