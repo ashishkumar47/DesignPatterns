@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/NullObjectDesignPattern/NullObjectDesignPattern.iml" filepath="$PROJECT_DIR$/NullObjectDesignPattern/NullObjectDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Projects.iml" filepath="$PROJECT_DIR$/Projects/Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrototypeDesignPattern/PrototypeDesignPattern.iml" filepath="$PROJECT_DIR$/PrototypeDesignPattern/PrototypeDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyDesignPattern/StrategyDesignPattern.iml" filepath="$PROJECT_DIR$/StrategyDesignPattern/StrategyDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/TemplateDesignPattern/TemplateDesignPattern.iml" filepath="$PROJECT_DIR$/TemplateDesignPattern/TemplateDesignPattern.iml" />

@@ -8,9 +8,14 @@ public class SingletonDesignPattern {
     private SingletonDesignPattern(){
 
     }
-    public static synchronized SingletonDesignPattern getInstance(){
-        if(singletonDesignPattern==null){
-            singletonDesignPattern=new SingletonDesignPattern();
+    //synchronized for thread safety
+    public static SingletonDesignPattern getInstance() {
+        if (singletonDesignPattern == null) { // First check (no locking)
+            synchronized (SingletonDesignPattern.class) {
+                if (singletonDesignPattern == null) { // Second check (with locking)
+                    singletonDesignPattern = new SingletonDesignPattern();
+                }
+            }
         }
         return singletonDesignPattern;
     }
