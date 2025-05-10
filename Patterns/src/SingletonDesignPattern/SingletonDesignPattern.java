@@ -1,3 +1,5 @@
+package SingletonDesignPattern;
+
 /**
  * @ author  ashishKumar
  * @ since 06-05-2025 11:13 pm
